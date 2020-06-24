@@ -1,10 +1,6 @@
 let container = document.querySelector('.container');
 let status = document.querySelectorAll('.status-value');
 
-const teste = html => {
-    container.innerHTML += html;
-}
-
 axios.get('https://kctbh9vrtdwd.statuspage.io/api/v2/components.json')
 .then(response => {
     let arrStatus = [];
