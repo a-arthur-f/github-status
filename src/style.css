@@ -20,7 +20,7 @@ header {
 }
 
 .container {
-    width: 980px;
+    width: 80%;
 }
 
 .status {
@@ -67,4 +67,14 @@ header {
 
 .atualizar button:active {
     transform: translateY(2px)
+}
+
+@media (max-width: 600px) {
+    .body {
+        height: 100%;
+    }
+
+    .status {
+        font-size: 22px;
+    }
 }
