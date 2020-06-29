@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html {
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,11 +17,27 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #50514F;
     color: white;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.conteudo-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container {
